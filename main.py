@@ -25,7 +25,7 @@ def extract_raw_urls(response_json, skip_premium=True):
     return urls
 
 def download_images(keyword, urls):
-    directory = f"/Users/jam/{keyword}"
+    directory = f"C:/Users/Scott/Pictures/bmw/{keyword}"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
